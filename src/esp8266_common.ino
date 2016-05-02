@@ -8,10 +8,10 @@
 #include "eepromutil.h"
 #include "serial_logger.h"
 
-char* ssid = "MIFI-19B2";
-char* password = "1234567890";
-/*char* ssid = "Supun's mi4i";
- char* password = "12345678";*/
+/*char* ssid = "MIFI-19B2";
+ char* password = "1234567890";*/
+char* ssid = "Supun's mi4i";
+char* password = "12345678";
 const int led = 2;
 const int serial_port = 9200;
 ESP8266Util esp8266(ssid, password, 2, 512);
