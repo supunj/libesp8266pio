@@ -4,6 +4,12 @@
  */
 #include <EEPROM.h>
 #include <Arduino.h>
+
+// Workaround suggested by @igrr in https://github.com/platformio/platformio/issues/646
+#undef min
+#undef max
+// end workaround
+
 #include <vector>
 
 #include "eepromutil.h"

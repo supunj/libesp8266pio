@@ -4,6 +4,12 @@
  */
 
 #include <WString.h>
+
+// Workaround suggested by @igrr in https://github.com/platformio/platformio/issues/646
+#undef min
+#undef max
+// end workaround
+
 #include <vector>
 
 class Reading {
